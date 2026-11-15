@@ -25,7 +25,7 @@ POEM = (
     "\n"
     "The doors opened on wind.\n"
     "Gravel under my shoes. Antennas.\n"
-    "The whole city below, not waiting.\n"
+    "Windows glowed below, hundreds, none of them mine.\n"
     "I stood on the roof and pressed nothing.\n"
     "\n"
     "I rode back down to 4.\n"
