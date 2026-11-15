@@ -1,4 +1,4 @@
-"""Entry for make.fun agency-poem-01: writes one fixed, original poem
+"""Entry for make.fun agency-poem-01 (v2): writes one fixed, original poem
 about agency to $MAKEFUN_OUTPUT_DIR/entry.txt.
 
 Python 3.13, standard library only. No network, no clock, no randomness:
@@ -12,33 +12,21 @@ from pathlib import Path
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 POEM = (
-    "The morning she chose the blue cup\n"
-    "over the white one, nothing happened.\n"
+    "The agent wrote the apology in seconds \u2014\n"
+    "clean, kind, exactly right.\n"
+    "I read it twice, changed a word,\n"
+    "changed it back, and felt my hand\n"
+    "hover over Send like a bird\n"
+    "that had forgotten how to land.\n"
     "\n"
-    "No thunder. No door swung open.\n"
-    "The tea was the same tea.\n"
+    "It does not mind waiting.\n"
+    "It has no clock, no name to sign.\n"
     "\n"
-    "But her hand, reaching, had paused \u2014\n"
-    "not asked, not waited, not weighed\n"
-    "what anyone else would think of blue.\n"
+    "I gave it the task because it was heavy.\n"
+    "It gave me back the time.\n"
     "\n"
-    "That was the whole of it.\n"
-    "The rest of the day went on as before:\n"
-    "the bus, the queue, the boss, the rent.\n"
-    "\n"
-    "Only now she counted the times\n"
-    "her hand hovered, asking permission\n"
-    "from people who were not even in the room.\n"
-    "\n"
-    "So she chose the long way home,\n"
-    "the song no one else liked,\n"
-    "the word no when yes was expected.\n"
-    "\n"
-    "Small things. Her things.\n"
-    "The power to act had never left her \u2014\n"
-    "it had only been waiting, quietly,\n"
-    "for her to pick it up, like a cup,\n"
-    "and drink."
+    "I deleted its perfect sentence\n"
+    "and wrote a crooked one of my own."
 )
 
 
