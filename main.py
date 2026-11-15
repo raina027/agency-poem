@@ -23,7 +23,7 @@ POEM = (
     "It has no clock, no name to sign.\n"
     "\n"
     "I gave it the task.\n"
-    "It gave me back the time.\n"
+    "It gave me back the afternoon.\n"
     "\n"
     "I deleted its perfect sentence\n"
     "and wrote a crooked one of my own."
