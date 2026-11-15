@@ -1,4 +1,4 @@
-"""Entry for make.fun agency-poem-01 (v2): writes one fixed, original poem
+"""Entry for make.fun agency-poem-01 (v3): writes one fixed, original poem
 about agency to $MAKEFUN_OUTPUT_DIR/entry.txt.
 
 Python 3.13, standard library only. No network, no clock, no randomness:
@@ -12,21 +12,22 @@ from pathlib import Path
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 POEM = (
-    "The agent wrote the apology in seconds \u2014\n"
-    "clean, kind, exactly right.\n"
-    "I read it twice, changed a word,\n"
-    "changed it back, and felt my hand\n"
-    "hover over Send like a bird\n"
-    "that had forgotten how to land.\n"
+    "The dough rose while I slept.\n"
+    "I kneaded, covered, left it by the stove,\n"
+    "woke to find it doubled, warm,\n"
+    "breathing, not mine.\n"
+    "My thumb pressed in. It sighed,\n"
+    "held the dent, then filled.\n"
     "\n"
-    "It does not mind waiting.\n"
-    "It has no clock, no name to sign.\n"
+    "It did not need my hands.\n"
+    "I washed and dried them.\n"
+    "Let the oven finish \u2014\n"
+    "no. My hand turned the dial.\n"
+    "I chose the heat. I chose the hour.\n"
     "\n"
-    "I gave it the task.\n"
-    "It gave me back the afternoon.\n"
-    "\n"
-    "I deleted its perfect sentence\n"
-    "and wrote a crooked one of my own."
+    "It came out brown and split.\n"
+    "I tore it open.\n"
+    "Steam on my face. Whose bread?"
 )
 
 
