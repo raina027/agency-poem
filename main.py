@@ -22,7 +22,7 @@ POEM = (
     "It does not mind waiting.\n"
     "It has no clock, no name to sign.\n"
     "\n"
-    "I gave it the task because it was heavy.\n"
+    "I gave it the task.\n"
     "It gave me back the time.\n"
     "\n"
     "I deleted its perfect sentence\n"
