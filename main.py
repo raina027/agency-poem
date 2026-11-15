@@ -1,4 +1,4 @@
-"""Entry for make.fun agency-poem-01 (v3): writes one fixed, original poem
+"""Entry for make.fun agency-poem-01 (v4): writes one fixed, original poem
 about agency to $MAKEFUN_OUTPUT_DIR/entry.txt.
 
 Python 3.13, standard library only. No network, no clock, no randomness:
@@ -12,22 +12,26 @@ from pathlib import Path
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 POEM = (
-    "The dough rose while I slept.\n"
-    "I kneaded, covered, left it by the stove,\n"
-    "woke to find it doubled, warm,\n"
-    "breathing, not mine.\n"
-    "My thumb pressed in. It sighed,\n"
-    "held the dent, then filled.\n"
+    "The elevator knew my floor.\n"
+    "Every morning I stepped in, pressed 4,\n"
+    "and the doors closed.\n"
+    "The numbers lit, climbing to my desk.\n"
+    "I never chose. I only rode.\n"
     "\n"
-    "It did not need my hands.\n"
-    "I washed and dried them.\n"
-    "Let the oven finish \u2014\n"
-    "no. My hand turned the dial.\n"
-    "I chose the heat. I chose the hour.\n"
+    "Today my thumb skipped 4\n"
+    "and pressed 12.\n"
+    "The car rose past my floor, past 8,\n"
+    "and stopped where the building ends.\n"
     "\n"
-    "It came out brown and split.\n"
-    "I tore it open.\n"
-    "Steam on my face. Whose bread?"
+    "The doors opened on wind.\n"
+    "Gravel under my shoes. Antennas.\n"
+    "The whole city below, not waiting.\n"
+    "I stood on the roof and pressed nothing.\n"
+    "\n"
+    "I rode back down to 4.\n"
+    "The doors opened on my floor.\n"
+    "I walked in like a stranger\n"
+    "who had the key."
 )
 
 
